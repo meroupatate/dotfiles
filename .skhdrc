@@ -28,6 +28,10 @@ alt - down : yabai -m window --focus south
 alt - up : yabai -m window --focus north
 alt - right : yabai -m window --focus east
 
+# Toggle fullscreen
+alt - f : yabai -m window --toggle zoom-fullscreen
+alt + shift - f : yabai -m window --toggle native-fullscreen
+
 # Start Applications
 cmd - return : open -a "iTerm"
 alt - w : open -a "Google Chrome" 
