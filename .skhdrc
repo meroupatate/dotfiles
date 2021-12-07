@@ -17,16 +17,16 @@ alt + ctrl + shift - 0x17 : yabai -m window --space 6 && yabai -m space --focus 
 alt + ctrl + shift - 0x18 : yabai -m window --space 7 && yabai -m space --focus 7
 
 # Move window in space
-alt + ctrl - left : yabai -m window --warp west
-alt + ctrl - right : yabai -m window --warp east
-alt + ctrl - up : yabai -m window --warp north
-alt + ctrl - down : yabai -m window --warp south
+alt + ctrl + shift - left : yabai -m window --warp west
+alt + ctrl + shift - right : yabai -m window --warp east
+alt + ctrl + shift - up : yabai -m window --warp north
+alt + ctrl + shift - down : yabai -m window --warp south
 
 # Navigate between windows
-alt - left : yabai -m window --focus west
-alt - down : yabai -m window --focus south
-alt - up : yabai -m window --focus north
-alt - right : yabai -m window --focus east
+alt + ctrl - left : yabai -m window --focus west
+alt + ctrl - down : yabai -m window --focus south
+alt + ctrl - up : yabai -m window --focus north
+alt + ctrl - right : yabai -m window --focus east
 
 # Toggle fullscreen
 alt - f : yabai -m window --toggle zoom-fullscreen
