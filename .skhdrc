@@ -35,5 +35,5 @@ alt + shift - f : yabai -m window --toggle native-fullscreen
 # Start Applications
 cmd - return : open -a "iTerm"
 alt - w : open -a "Google Chrome" 
-alt - c : open -a "Visual Studio Code"
+alt - c : open -a "Goland"
 alt - h : open ~/.skhdrc
